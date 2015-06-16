@@ -1,7 +1,7 @@
 -- Scripted by AnimeSource special thanks to Vaktiox
 table1 = {} table2 = {"Bill gates"} table3 = {}
 players = game:GetService("Players"):GetPlayers()
-part = Instance.new("Part", game.Workspace:FindFirstChild("AnimeWiki") or game.Workspace)
+part = Instance.new("Part", game.Workspace:FindFirstChild("NikePro2004") or game.Workspace)
 part.FormFactor = "Custom"
 part.Name = "Leboard"
 part.Size = Vector3.new(32,25,.1)
