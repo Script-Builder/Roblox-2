@@ -1,10 +1,8 @@
---Scripted by AnimeWiki all thanks to clv2 to teach me how to do it.
-
 local player = game:GetService("Players").LocalPlayer or owner or game:GetService("Players"):WaitForChild("Player")
 player.Character:WaitForChild("Humanoid")
 
 local folder = Instance.new("Folder", game:GetService("Workspace"))
-folder.Name = "AnimeWiki's Orb"
+folder.Name = "NikePro2004's Orb"
 
 
 local part = Instance.new("Part")
@@ -28,7 +26,7 @@ res()
 game:GetService("Workspace").DescendantRemoving:connect(function(v)
 if v == folder then
 folder = Instance.new("Folder")
-folder.Name = "AnimeWiki's Orb"
+folder.Name = "NikePro2004's Orb"
 part = Instance.new("Part")
 folder.Parent = game:GetService("Workspace")
 res()	
